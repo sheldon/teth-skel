@@ -1,0 +1,1 @@
+//skeleton application.js

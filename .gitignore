@@ -1,0 +1,9 @@
+._*
+.DS_Store
+tmp/cache/*
+!tmp/cache/README
+tmp/log/*
+!tmp/log/README
+teth*
+plugins/*
+!plugins/README

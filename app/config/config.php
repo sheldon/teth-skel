@@ -59,6 +59,6 @@
  * - takes this format: array('controller'=>'PageController', 'action'=>'index');
  */
 // Config::$settings['position_map']=false;
-// Config::$settings['default_form']="html";
+// Config::$settings['default_format']="html";
 
 ?>

@@ -13,7 +13,6 @@ class PageController extends CoreController{
    * allows you do run a general action before all other controller code
    */
   public $intial_view="application";
-  public function application(){}
   
   public function index(){}
 }

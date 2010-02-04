@@ -1,1 +1,1 @@
-Plugins folder, things added here will be dynamically loaded and add to the functionality of your application if they have a correctly formed ini.php file in their root.
+Plugins folder, things added here will be dynamically loaded and add to the functionality of your application if they have a correctly formed teth_ini.php file in their root.

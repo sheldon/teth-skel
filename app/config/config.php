@@ -3,8 +3,8 @@
 /**
  * List of default classes for main things
  */
-// Config::$settings['classes']['autoloader']                    = array('class'=>'Autoloader');
-// Config::$settings['classes']['application']                   = array('class'=>'CoreApplication', 'component'=>'core', 'module'=>'applications');
+// Config::$settings['classes']['autoloader']                    = array('class'=>'TethAutoloader');
+// Config::$settings['classes']['application']                   = array('class'=>'TethCoreApplication', 'component'=>'core', 'module'=>'applications');
 // Config::$settings['classes']['router']                        = array('class'=>'TethCoreRouter', 'component'=>'core', 'module'=>'routers');
 // Config::$settings['classes']['recursive_directory_iterator']  = array('class'=>'TethRecursiveDirectoryIterator', 'component'=>'core', 'module'=>'iterators');
 // Config::$settings['classes']['ini_directory_iterator']        = array('class'=>'TethRecursiveDirectoryIterator', 'component'=>'core', 'module'=>'iterators');
@@ -47,7 +47,7 @@
  *    - functions
  * These function should load in their own dependancies - to avoid auto loader issues
  */
-// Config::$settings['pre_functions'] = array();
+// Config::$settings['pre_functions'] = array('path/to/class/file'=>array('ExampleClass'=>array('function_to_call', 'another_function')));
 
 /**
  * ip address for local environments

@@ -3,7 +3,7 @@
  * default main controller
  * define your actions here, any defined methods will be accessible as public facing pages
  */
-class PageController extends CoreController{
+class PageController extends TethCoreController{
 
   /**
    * initial view to be rendered before others

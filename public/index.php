@@ -15,7 +15,7 @@ if(function_exists('date_default_timezone_set')){
   else date_default_timezone_set(PHP_TIMEZONE);
 }
 
-require FRAMEWORK_DIR.'Autoloader.php';
-Autoloader::init();
-Autoloader::go();
+require FRAMEWORK_DIR.'TethAutoloader.php';
+TethAutoloader::init();
+TethAutoloader::go();
 ?>

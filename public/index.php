@@ -9,6 +9,7 @@ if(!defined("APP_DIR")) define('APP_DIR', SITE_DIR . "app/");
 if(!defined("CONTROLLER_DIR")) define('CONTROLLER_DIR', APP_DIR.'controller/');
 if(!defined("CONFIG_DIR")) define('CONFIG_DIR' , APP_DIR.'config/');
 if(!defined("PUBLIC_DIR")) define('PUBLIC_DIR' , SITE_DIR.'public/');
+if(!defined("PLUGIN_DIR")) define('PLUGIN_DIR' , SITE_DIR.'plugins/');
 
 if(function_exists('date_default_timezone_set')){
   if(!defined('PHP_TIMEZONE')) date_default_timezone_set('Europe/London');
